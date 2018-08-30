@@ -1,0 +1,253 @@
+10:23:58.869 logback-mybatis [main] INFO  com.example.AccApplication - Starting AccApplication on stu1003 with PID 5452 (E:\workspaces\acc\target\classes started by Administrator in E:\workspaces\acc)
+10:23:58.878 logback-mybatis [main] INFO  com.example.AccApplication - No active profile set, falling back to default profiles: default
+10:23:59.163 logback-mybatis [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@689604d9: startup date [Tue Aug 21 10:23:59 CST 2018]; root of context hierarchy
+10:24:02.465 logback-mybatis [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:24:04.233 logback-mybatis [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7d80915f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:24:06.027 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10:24:06.087 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10:24:06.137 logback-mybatis [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:24:06.137 logback-mybatis [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+10:24:06.180 logback-mybatis [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;D:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Java\jdk1.8.0_111\jre\bin;C:\sqlite\;;D:\spring-tool-suite-3.6.3.SR1-e4.4.1-win32-x86_64\sts-bundle\sts-3.6.3.SR1;;.]
+10:24:07.770 logback-mybatis [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:24:07.800 logback-mybatis [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:24:07.801 logback-mybatis [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8638 ms
+10:24:10.887 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+10:24:10.889 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+10:24:10.890 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:24:10.892 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:24:10.895 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+10:24:10.896 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+10:24:10.896 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+10:24:13.285 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:24:14.054 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@689604d9: startup date [Tue Aug 21 10:23:59 CST 2018]; root of context hierarchy
+10:24:14.313 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addcheckout],methods=[POST]}" onto public java.lang.String com.example.controller.accController.addCheckout(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+10:24:14.315 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/buygoods],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accbuy(int,javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+10:24:14.319 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteorder],methods=[GET]}" onto public java.lang.String com.example.controller.accController.deleteOrder(int,org.springframework.ui.Model)
+10:24:14.319 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/checkout],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accCheckout(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+10:24:14.320 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/contact],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accContact()
+10:24:14.334 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.example.controller.accController.accLogin()
+10:24:14.335 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accGetLogin()
+10:24:14.336 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pressroom],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accPressroom()
+10:24:14.336 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product_k],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accProduct_k()
+10:24:14.336 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/shortcodes],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accShortcodes()
+10:24:14.338 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/signup],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accSignup()
+10:24:14.339 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/single],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accSingle(int,org.springframework.ui.Model)
+10:24:14.340 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/terms],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accTerms()
+10:24:14.341 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.example.controller.accController.findAllgoods(org.springframework.ui.Model)
+10:24:14.341 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product_m],methods=[GET]}" onto public java.lang.String com.example.controller.accController.searchGoodsMan(java.lang.String,org.springframework.ui.Model)
+10:24:14.342 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product],methods=[GET]}" onto public java.lang.String com.example.controller.accController.searchGoods(java.lang.String,org.springframework.ui.Model)
+10:24:14.365 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/left],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accleft()
+10:24:14.366 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index_h],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accIndex_h()
+10:24:14.366 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/top],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.acctop()
+10:24:14.366 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/right],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accright()
+10:24:14.366 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/bottom],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accbottom()
+10:24:14.367 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/boardList],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accboardList()
+10:24:14.368 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cuisineList],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.acccuisineList()
+10:24:14.368 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/foodList],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accfoodList(org.springframework.ui.Model)
+10:24:14.368 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orderDetail],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accorderDetail()
+10:24:14.369 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orderList],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accorderList()
+10:24:14.369 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/saveBoard],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accsaveBoard()
+10:24:14.369 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/saveCuisine],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accsaveCuisine()
+10:24:14.370 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateCuisine],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accupdateCuisine()
+10:24:14.371 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateFood],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accupdateFood()
+10:24:14.374 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/delete/{goods_id}],methods=[GET]}" onto public java.lang.String com.example.controller.GoodAdminController.del(int,javax.servlet.http.HttpSession)
+10:24:14.383 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doupdategoods],methods=[POST]}" onto public java.lang.String com.example.controller.GoodAdminController.update_onegoods(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,float,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpSession)
+10:24:14.384 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updatefood/{goods_id}],methods=[GET]}" onto public java.lang.String com.example.controller.GoodAdminController.scanone(int,javax.servlet.http.HttpSession)
+10:24:14.384 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addgoods],methods=[GET]}" onto public java.lang.String com.example.controller.GoodAdminController.doadd_goods(com.example.model.GoodsModel,javax.servlet.http.HttpSession)
+10:24:14.385 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doaddgoods],methods=[POST]}" onto public java.lang.String com.example.controller.GoodAdminController.upload(org.springframework.web.multipart.MultipartFile[],javax.servlet.http.HttpServletRequest,com.example.model.GoodsModel) throws java.io.IOException
+10:24:14.421 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateuser/{user_id}],methods=[GET]}" onto public java.lang.String com.example.controller.UserAdminController.update(int,org.springframework.ui.Model)
+10:24:14.422 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteuser/{user_id}],methods=[GET]}" onto public java.lang.String com.example.controller.UserAdminController.del(int,javax.servlet.http.HttpSession)
+10:24:14.423 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/adduser],methods=[GET]}" onto public java.lang.String com.example.controller.UserAdminController.doadd_goods(com.example.model.UserModel,javax.servlet.http.HttpSession)
+10:24:14.423 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doadduser],methods=[POST]}" onto public java.lang.String com.example.controller.UserAdminController.add_goods(com.example.model.UserModel,javax.servlet.http.HttpSession)
+10:24:14.424 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/selectuser],methods=[GET]}" onto public java.lang.String com.example.controller.UserAdminController.dologin(org.springframework.ui.Model)
+10:24:14.426 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateinfo],methods=[POST],produces=[application/json]}" onto public java.lang.String com.example.controller.UserAdminController.up(com.example.model.UserModel,javax.servlet.http.HttpSession)
+10:24:14.427 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dologin],methods=[POST]}" onto public java.lang.String com.example.controller.userController.dologin(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest)
+10:24:14.431 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.example.controller.userController.doregster(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
+10:24:14.433 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.example.controller.userController.doLogout(javax.servlet.http.HttpSession)
+10:24:14.439 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:24:14.440 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:24:14.619 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:24:14.619 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:24:14.919 logback-mybatis [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+10:24:16.707 logback-mybatis [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+10:24:16.728 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+10:24:16.739 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+10:24:16.741 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:24:16.961 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+10:24:16.965 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+10:24:16.979 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+10:24:17.055 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10:24:17.186 logback-mybatis [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:24:17.382 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10:24:17.393 logback-mybatis [main] INFO  com.example.AccApplication - Started AccApplication in 19.955 seconds (JVM running for 21.562)
+10:24:40.821 logback-mybatis [http-nio-8081-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+10:24:40.821 logback-mybatis [http-nio-8081-exec-10] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+10:24:40.883 logback-mybatis [http-nio-8081-exec-10] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 61 ms
+10:24:41.202 logback-mybatis [http-nio-8081-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:24:42.263 logback-mybatis [http-nio-8081-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:24:42.280 logback-mybatis [http-nio-8081-exec-10] DEBUG c.example.mapper.UserMapper.searchId - ==>  Preparing: select user_id from user where user_name=? 
+10:24:42.357 logback-mybatis [http-nio-8081-exec-10] DEBUG c.example.mapper.UserMapper.searchId - ==> Parameters: null
+10:24:42.576 logback-mybatis [http-nio-8081-exec-10] DEBUG c.example.mapper.UserMapper.searchId - <==      Total: 0
+10:24:42.637 logback-mybatis [http-nio-8081-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.example.controller.accController.accCheckout(accController.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+10:25:00.560 logback-mybatis [http-nio-8081-exec-2] DEBUG c.e.mapper.GoodsMapper.findAllGoods - ==>  Preparing: select goods_id, goods_title, goods_subtitle, goods_type, goods_subtype, price, stock, color, descs, product_details, goods_pics from goods 
+10:25:00.561 logback-mybatis [http-nio-8081-exec-2] DEBUG c.e.mapper.GoodsMapper.findAllGoods - ==> Parameters: 
+10:25:00.643 logback-mybatis [http-nio-8081-exec-2] DEBUG c.e.mapper.GoodsMapper.findAllGoods - <==      Total: 11
+10:27:18.912 logback-mybatis [main] INFO  com.example.AccApplication - Starting AccApplication on stu1003 with PID 2876 (E:\workspaces\acc\target\classes started by Administrator in E:\workspaces\acc)
+10:27:18.946 logback-mybatis [main] INFO  com.example.AccApplication - No active profile set, falling back to default profiles: default
+10:27:19.290 logback-mybatis [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a3b5b47: startup date [Tue Aug 21 10:27:19 CST 2018]; root of context hierarchy
+10:27:22.184 logback-mybatis [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:27:23.453 logback-mybatis [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$36826712] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:27:25.379 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10:27:25.489 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10:27:25.548 logback-mybatis [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:27:25.549 logback-mybatis [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+10:27:25.574 logback-mybatis [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;D:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Java\jdk1.8.0_111\jre\bin;C:\sqlite\;;D:\spring-tool-suite-3.6.3.SR1-e4.4.1-win32-x86_64\sts-bundle\sts-3.6.3.SR1;;.]
+10:27:26.406 logback-mybatis [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:27:26.435 logback-mybatis [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:27:26.444 logback-mybatis [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7154 ms
+10:27:29.307 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+10:27:29.308 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+10:27:29.308 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:27:29.309 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:27:29.310 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+10:27:29.311 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+10:27:29.311 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+10:27:30.577 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:27:31.350 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a3b5b47: startup date [Tue Aug 21 10:27:19 CST 2018]; root of context hierarchy
+10:27:31.553 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addcheckout],methods=[POST]}" onto public java.lang.String com.example.controller.accController.addCheckout(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+10:27:31.565 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/buygoods],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accbuy(int,javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+10:27:31.580 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteorder],methods=[GET]}" onto public java.lang.String com.example.controller.accController.deleteOrder(int,org.springframework.ui.Model)
+10:27:31.581 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/checkout],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accCheckout(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+10:27:31.592 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/contact],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accContact()
+10:27:31.593 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.example.controller.accController.accLogin()
+10:27:31.593 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accGetLogin()
+10:27:31.593 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pressroom],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accPressroom()
+10:27:31.594 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product_k],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accProduct_k()
+10:27:31.594 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/shortcodes],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accShortcodes()
+10:27:31.595 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/signup],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accSignup()
+10:27:31.597 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/single],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accSingle(int,org.springframework.ui.Model)
+10:27:31.606 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/terms],methods=[GET]}" onto public java.lang.String com.example.controller.accController.accTerms()
+10:27:31.606 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.example.controller.accController.findAllgoods(org.springframework.ui.Model)
+10:27:31.607 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product_m],methods=[GET]}" onto public java.lang.String com.example.controller.accController.searchGoodsMan(java.lang.String,org.springframework.ui.Model)
+10:27:31.607 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product],methods=[GET]}" onto public java.lang.String com.example.controller.accController.searchGoods(java.lang.String,org.springframework.ui.Model)
+10:27:31.622 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/left],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accleft()
+10:27:31.622 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index_h],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accIndex_h()
+10:27:31.623 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/top],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.acctop()
+10:27:31.625 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/right],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accright()
+10:27:31.625 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/bottom],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accbottom()
+10:27:31.627 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/boardList],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accboardList()
+10:27:31.627 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cuisineList],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.acccuisineList()
+10:27:31.634 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/foodList],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accfoodList(org.springframework.ui.Model)
+10:27:31.634 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orderDetail],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accorderDetail()
+10:27:31.635 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orderList],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accorderList()
+10:27:31.635 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/saveBoard],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accsaveBoard()
+10:27:31.635 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/saveCuisine],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accsaveCuisine()
+10:27:31.637 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateCuisine],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accupdateCuisine()
+10:27:31.638 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateFood],methods=[GET]}" onto public java.lang.String com.example.controller.adminController.accupdateFood()
+10:27:31.640 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/delete/{goods_id}],methods=[GET]}" onto public java.lang.String com.example.controller.GoodAdminController.del(int,javax.servlet.http.HttpSession)
+10:27:31.641 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doupdategoods],methods=[POST]}" onto public java.lang.String com.example.controller.GoodAdminController.update_onegoods(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,float,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpSession)
+10:27:31.641 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updatefood/{goods_id}],methods=[GET]}" onto public java.lang.String com.example.controller.GoodAdminController.scanone(int,javax.servlet.http.HttpSession)
+10:27:31.642 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addgoods],methods=[GET]}" onto public java.lang.String com.example.controller.GoodAdminController.doadd_goods(com.example.model.GoodsModel,javax.servlet.http.HttpSession)
+10:27:31.642 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doaddgoods],methods=[POST]}" onto public java.lang.String com.example.controller.GoodAdminController.upload(org.springframework.web.multipart.MultipartFile[],javax.servlet.http.HttpServletRequest,com.example.model.GoodsModel) throws java.io.IOException
+10:27:31.645 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateuser/{user_id}],methods=[GET]}" onto public java.lang.String com.example.controller.UserAdminController.update(int,org.springframework.ui.Model)
+10:27:31.645 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteuser/{user_id}],methods=[GET]}" onto public java.lang.String com.example.controller.UserAdminController.del(int,javax.servlet.http.HttpSession)
+10:27:31.646 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/adduser],methods=[GET]}" onto public java.lang.String com.example.controller.UserAdminController.doadd_goods(com.example.model.UserModel,javax.servlet.http.HttpSession)
+10:27:31.646 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doadduser],methods=[POST]}" onto public java.lang.String com.example.controller.UserAdminController.add_goods(com.example.model.UserModel,javax.servlet.http.HttpSession)
+10:27:31.648 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateinfo],methods=[POST],produces=[application/json]}" onto public java.lang.String com.example.controller.UserAdminController.up(com.example.model.UserModel,javax.servlet.http.HttpSession)
+10:27:31.648 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/selectuser],methods=[GET]}" onto public java.lang.String com.example.controller.UserAdminController.dologin(org.springframework.ui.Model)
+10:27:31.650 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dologin],methods=[POST]}" onto public java.lang.String com.example.controller.userController.dologin(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest)
+10:27:31.651 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.example.controller.userController.doregster(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
+10:27:31.652 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.example.controller.userController.doLogout(javax.servlet.http.HttpSession)
+10:27:31.655 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:27:31.656 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:27:31.713 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:27:31.713 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:27:31.830 logback-mybatis [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+10:27:33.313 logback-mybatis [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+10:27:33.335 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+10:27:33.336 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+10:27:33.338 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:27:33.443 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+10:27:33.447 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+10:27:33.463 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+10:27:33.498 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10:27:33.609 logback-mybatis [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:27:33.679 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10:27:33.689 logback-mybatis [main] INFO  com.example.AccApplication - Started AccApplication in 16.662 seconds (JVM running for 20.82)
+10:27:39.671 logback-mybatis [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+10:27:39.674 logback-mybatis [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+10:27:39.736 logback-mybatis [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+10:27:39.936 logback-mybatis [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:27:40.465 logback-mybatis [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:27:40.478 logback-mybatis [http-nio-8081-exec-1] DEBUG c.e.mapper.GoodsMapper.findAllGoods - ==>  Preparing: select goods_id, goods_title, goods_subtitle, goods_type, goods_subtype, price, stock, color, descs, product_details, goods_pics from goods 
+10:27:40.526 logback-mybatis [http-nio-8081-exec-1] DEBUG c.e.mapper.GoodsMapper.findAllGoods - ==> Parameters: 
+10:27:40.581 logback-mybatis [http-nio-8081-exec-1] DEBUG c.e.mapper.GoodsMapper.findAllGoods - <==      Total: 11
+10:28:53.733 logback-mybatis [http-nio-8081-exec-1] DEBUG c.e.mapper.GoodsMapper.searchGoods - ==>  Preparing: select goods_id, goods_title, goods_subtitle, goods_type, goods_subtype, price, stock, color, descs, product_details, goods_pics from goods where goods_subtype like concat(concat('%',?),'%') 
+10:28:53.734 logback-mybatis [http-nio-8081-exec-1] DEBUG c.e.mapper.GoodsMapper.searchGoods - ==> Parameters: 男(String)
+10:28:53.765 logback-mybatis [http-nio-8081-exec-1] DEBUG c.e.mapper.GoodsMapper.searchGoods - <==      Total: 3
